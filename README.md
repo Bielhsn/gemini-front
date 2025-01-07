@@ -1,9 +1,3 @@
-# Alura - Imersão back-end
-
-Este é o repositório do front-end do projeto.
-
-**IMPORTANTE:** É necessário ter o [Node.js](https://nodejs.org/) instalado em seu computador antes de executar os comandos de instalação e execução do projeto. Versão recomendada: v20.x.x.
-
 ## PASSO 1: Baixe o código do projeto:
 
 ### Opção 1 - Clonando o repositório para o seu perfil no GitHub
