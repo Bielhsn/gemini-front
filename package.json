@@ -25,7 +25,9 @@
   "contributors": [],
   "scripts": {
     "dev": "npx parcel --port 8000 index.html",
-    "test": ""
+    "test": "",
+    "build": "parcel build src/index.html",
+    "start": "parcel src/index.html"
   },
   "devDependencies": {
     "parcel": "^2.12.0"
