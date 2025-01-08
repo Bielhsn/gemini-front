@@ -1,38 +1,37 @@
-## PASSO 1: Baixe o código do projeto:
+## STEP 1: Download the project code:
 
-### Opção 1 - Clonando o repositório para o seu perfil no GitHub
+### Option 1 - Cloning the repository to your GitHub profile
 
-> Para utilizar essa opção é necessário ter o [Git](https://git-scm.com/downloads) instalado e configurado em seu computador. Caso não esteja instalado ou você não tenha certeza, prossiga com a **opção 2** e baixe o .zip do projeto.
+>  use this option, you need to have [Git](https://git-scm.com/downloads) installed and configured on your computer. If it is not installed or you're unsure, proceed with **Option 2** and download the project's .zip file.
 
-1. Faça o **fork** do projeto clicando no botão **Fork** na parte superior direita da página;
-2. Faça o **clone** do repositório para seu computador:
-  - Clique no botão **<> Code** e copie o endereço remoto do repositório;
-  - Abra o terminal, navegue até a pasta raiz onde deseja baixar o projeto e execute o comando `git clone <endereço remoto>`;
-  - Você pode acessar a pasta do projeto direto pelo Visual Studio Code, clicando em File > Open Folder e selecionando a pasta do projeto.
+1. **Fork** the project by clicking the **Fork** button at the top right of the page;
+2. **Clone** the repository to your computer:
+  - Click the **<> Code** button and copy the remote repository address;
+  - Open the terminal, navigate to the root folder where you want to download the project, and run the command `git clone <remote address>`;
+  - You can access the project folder directly through Visual Studio Code by clicking File > Open Folder and selecting the project folder.
 
-### Opção 2 - Baixando um arquivo .zip
+### Option 2 - Downloading a .zip file
 
-1. clique no botão **<> Code** e, em seguida, no botão **Download ZIP**;
-2. uma pasta zipada será baixada para a pasta de downloads determinada pelo seu navegador;
-3. descompacte os arquivos clicando no ícone da pasta zipada e transfira os arquivos para a pasta de projetos de sua preferência.
+1. Click the **<> Code** button, then click the **Download ZIP** button;
+2. A zipped folder will be downloaded to the downloads folder determined by your browser;
+3. Extract the files by clicking the zipped folder icon and transfer the files to your preferred project folder.
 
+## STEP 2: Install the project:
 
-## PASSO 2: Instale o projeto:
+### Option 1 - Using the Visual Studio Code terminal
 
-### Opção 1 - Utilizando o terminal do Visual Studio Code
+1. Open the project folder in Visual Studio Code by clicking File > Open Folder and selecting the project folder;
+2. Click Terminal > New Terminal in the top menu of Visual Studio Code. The terminal should open, already directing to the correct project folder;
+3. Run the command `npm install` and wait for it to finish.
 
-1. Abra a pasta do projeto no Visual Studio Code clicando em File > Open Folder e selecionando a pasta do projeto;
-2. Clique em Terminal > New Terminal no menu superior do Visual Studio Code. O terminal deve abrir já direcionando para a pasta correta do projeto;
-3. Execute o comando `npm install` e aguarde a finalização.
+### Option 2 - Using other terminals
 
-### Opção 2 - Utilizando outros terminais
+1. Open your preferred terminal and navigate to the project folder using navigation commands like `cd <folder>`;
+2. With the prompt pointing to the root of the project folder, run the command `npm install` and wait for it to finish.
 
-1. Abra o terminal de sua preferência e navegue até a pasta do projeto, utilizando os comandos de navegação como `cd <pasta>`;
-2. Com o prompt apontando para a raiz da pasta do projeto, execute o comando `npm install` e aguarde a finalização.
+## STEP 3: Run the project to start the local server:
 
-## PASSO 3: Execute o projeto para subir o servidor local:
-
-Acesse o terminal (do Visual Studio Code ou outro), certifique-se que esteja exibindo a pasta correta do projeto e execute o comando `npm run dev`. O terminal deverá retornar:
+Access the terminal (from Visual Studio Code or another), make sure it is displaying the correct project folder, and run the command `npm run dev`. The terminal should return:
 
 ```
 > dev
@@ -42,4 +41,4 @@ Server running at http://localhost:8000
 ✨ Built in xxxms
 ```
 
-O projeto estará disponível no endereço http://localhost:8000 e você poderá acessá-lo no navegador de sua preferência.
+The project will be available at http://localhost:8000, and you can access it in your preferred browser.
